@@ -25,3 +25,5 @@ http://pagespeed.webkaka.com/docs/
 
 ##### B站前端开发大佬博客
 https://diygod.me
+##### 抖音去水印
+http://wexin.qianbaihe.wang/Douyin/Index
