@@ -1,0 +1,124 @@
+.answer_border {
+  display: flex;
+  align-items: center;
+  justify-content: center; /*主轴对齐*/
+  flex-direction: column; /*竖直排列*/
+  width: 232px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border-radius: 6px;
+  background-color: rgba(54, 65, 82, 0.8);
+
+  .answer_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 22px;
+    /* 正在答题提示区*/
+    .tip_wrap {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 24px;
+
+      .content {
+        font-family: PingFangSC;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        align-self: center;
+        color: #ffffff;
+      }
+    }
+    /* 隐藏按钮区 */
+    .hide_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 52px;
+      height: 24px;
+      border-radius: 6px;
+      background-color: rgba(255, 255, 255, 0.2);
+      text-align: center;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+        cursor: pointer;
+      }
+
+      .content {
+        width: 28px;
+        height: 17px;
+        font-family: PingFangSC;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+    }
+  }
+  .answer_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .answer_options {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 110px;
+      height: 32px;
+      margin-bottom: 12px;
+      border-radius: 16px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.2);
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+        cursor: pointer;
+      }
+      &.disable {
+        background-color: rgba(255, 255, 255, 0.08);
+        pointer-events: none;
+        & > span {
+          opacity: 0.4;
+        }
+      }
+      &.active {
+        background-color: rgba(255, 255, 255, 0.4);
+        & > span {
+          opacity: 1;
+        }
+      }
+      /* "选择 "字体 */
+      .chose_content {
+        font-family: PingFangSC;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+      /* 选择字母*/
+      .letter_content {
+        width: 12.1px;
+        height: 16px;
+        margin-left: 4px;
+      }
+    }
+  }
+}
