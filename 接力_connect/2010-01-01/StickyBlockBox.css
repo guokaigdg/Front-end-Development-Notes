@@ -1,0 +1,43 @@
+.item-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 225px;
+  height: 29px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.item-wrap:hover {
+  height: 29px;
+  background: rgba(230, 236, 241, 1);
+}
+/* 
+.item-wrap:active {
+  background-color: rgba(218, 217, 215, 1);
+} */
+
+.font-h1-default {
+  height: 17px;
+  margin-left: 24px;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 500;
+  color: rgba(124, 136, 147, 1);
+}
+.font-h1-choosen {
+  color: rgba(167, 85, 237, 1);
+}
+
+.font-h2-default {
+  height: 17px;
+  margin-left: 41px;
+  line-height: 17px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(124, 136, 147, 1);
+}
+
+.font-h2-choosen {
+  color: rgba(167, 85, 237, 1);
+}
