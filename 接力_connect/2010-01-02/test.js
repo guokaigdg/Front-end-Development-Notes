@@ -6,21 +6,21 @@ import Show from "./Show";
 function BlockBox() {
   const list = [
     {
-      name: "IT技术",
+      name: "IT",
       type: "H1",
-      href: "#it",
-      node: [
-        {
-          name: "React",
-          type: "H2",
-          href: "#react"
-        },
-        {
-          name: "VUE",
-          type: "H2",
-          href: "#vue"
-        }
-      ]
+      href: "#it"
+      // node: [
+      //   {
+      //     name: "React",
+      //     type: "H2",
+      //     href: "#react"
+      //   },
+      //   {
+      //     name: "VUE",
+      //     type: "H2",
+      //     href: "#vue"
+      //   }
+      // ]
     },
     {
       name: "JavaScript",
@@ -31,6 +31,11 @@ function BlockBox() {
       name: "VUE",
       type: "H2",
       href: "#vue"
+    },
+    {
+      name: "TS",
+      type: "H1",
+      href: "#ts"
     }
   ];
   return (
