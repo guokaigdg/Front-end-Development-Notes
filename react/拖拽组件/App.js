@@ -5,33 +5,33 @@ function App() {
     {
       content: "div1",
       code: "01",
-      sort: 2
+      sort: 2,
     },
     {
       content: "div2",
       code: "02",
-      sort: 3
+      sort: 3,
     },
     {
       content: "div3",
       code: "03",
-      sort: 4
+      sort: 4,
     },
     {
       content: "div4",
       code: "04",
-      sort: 5
+      sort: 5,
     },
     {
       content: "div5",
       code: "05",
-      sort: 6
+      sort: 6,
     },
     {
       content: "div6",
       code: "06",
-      sort: 1
-    }
+      sort: 1,
+    },
   ];
 
   // const handelrender = item => {
@@ -52,7 +52,7 @@ function App() {
           width: 320,
           height: 50,
           backgroundColor: "pink",
-          marginBottom: 10
+          marginBottom: 10,
         }}
         isAcceptAdd={"false"}
       />
