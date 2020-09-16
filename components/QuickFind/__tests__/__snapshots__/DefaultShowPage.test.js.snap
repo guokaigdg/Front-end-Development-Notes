@@ -1,0 +1,826 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickFind 渲染  参数 recentPagesData = data  | recentSearchesData = data 1`] = `
+<div
+  class="div-root-89"
+>
+  <div
+    class="div-root-90 makeStyles-root-87"
+  >
+    <div
+      class="div-root-91"
+    >
+      <div
+        class="div-root-95 div-root-96"
+      >
+        <div
+          class="div-root-97 makeStyles-icon-93"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 24px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <input
+          class="input-root-98 makeStyles-input-92"
+          placeholder="Search 工作区.."
+          value=""
+        />
+        <div
+          class="div-root-99 makeStyles-cancelIcon-94"
+        />
+      </div>
+    </div>
+    <div
+      class="div-root-100 makeStyles-divider-88"
+    />
+    <div
+      class="div-root-101"
+    >
+      <div>
+        <div
+          class="div-root-102"
+        >
+          <div
+            class="div-root-105"
+          >
+            <div
+              class="div-root-106 makeStyles-title-103"
+            >
+              最近页面
+            </div>
+          </div>
+          <div
+            class="div-root-109"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-110 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-111"
+              >
+                <div
+                  class="div-root-112"
+                >
+                  <div
+                    class="div-root-113"
+                  >
+                     🍰 
+                  </div>
+                  <div
+                    class="div-root-114 makeStyles-title-108"
+                  >
+                     蛋糕 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+          <div
+            class="div-root-109"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-110 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-111"
+              >
+                <div
+                  class="div-root-112"
+                >
+                  <div
+                    class="div-root-113"
+                  >
+                     🍣  
+                  </div>
+                  <div
+                    class="div-root-114 makeStyles-title-108"
+                  >
+                     基本信息 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="div-root-115"
+        >
+          <div
+            class="div-root-105"
+          >
+            <div
+              class="div-root-106 makeStyles-title-103"
+            >
+              最近搜索
+            </div>
+          </div>
+          <div
+            class="div-root-119"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-120 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-121"
+              >
+                <div
+                  class="div-root-122"
+                >
+                  <div
+                    class="div-root-123 makeStyles-icon-117"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      style="font-size: 19px;"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="div-root-124 makeStyles-title-118"
+                  >
+                     芜湖abc 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+          <div
+            class="div-root-119"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-120 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-121"
+              >
+                <div
+                  class="div-root-122"
+                >
+                  <div
+                    class="div-root-123 makeStyles-icon-117"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      style="font-size: 19px;"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="div-root-124 makeStyles-title-118"
+                  >
+                     你好啊 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="div-root-125"
+    >
+      <div
+        class="div-root-100 makeStyles-divider-88"
+      />
+      <div
+        class="div-root-128 makeStyles-root-126"
+      >
+        <div
+          class="div-root-129 makeStyles-icon-127"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 16px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 16px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+            />
+          </svg>
+        </div>
+        <span
+          class="span-root-130"
+        >
+          选择
+        </span>
+        <span
+          class="span-root-131 makeStyles-icon-127"
+        >
+          Enter
+        </span>
+        <span
+          class="span-root-130"
+        >
+          打开
+        </span>
+        <span
+          class="span-root-131 makeStyles-icon-127"
+        >
+           ⌘+Enter
+        </span>
+        <span
+          class="span-root-130"
+        >
+          新标签中打开
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`QuickFind 渲染  参数 recentPagesData = data | recentSearchesData = null 1`] = `
+<div
+  class="div-root-18"
+>
+  <div
+    class="div-root-19 makeStyles-root-16"
+  >
+    <div
+      class="div-root-20"
+    >
+      <div
+        class="div-root-24 div-root-25"
+      >
+        <div
+          class="div-root-26 makeStyles-icon-22"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 24px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <input
+          class="input-root-27 makeStyles-input-21"
+          placeholder="Search 工作区.."
+          value=""
+        />
+        <div
+          class="div-root-28 makeStyles-cancelIcon-23"
+        />
+      </div>
+    </div>
+    <div
+      class="div-root-29 makeStyles-divider-17"
+    />
+    <div
+      class="div-root-30"
+    >
+      <div>
+        <div
+          class="div-root-31"
+        >
+          <div
+            class="div-root-34"
+          >
+            <div
+              class="div-root-35 makeStyles-title-32"
+            >
+              最近页面
+            </div>
+          </div>
+          <div
+            class="div-root-38"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-39 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-40"
+              >
+                <div
+                  class="div-root-41"
+                >
+                  <div
+                    class="div-root-42"
+                  >
+                     🍰 
+                  </div>
+                  <div
+                    class="div-root-43 makeStyles-title-37"
+                  >
+                     蛋糕 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+          <div
+            class="div-root-38"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-39 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-40"
+              >
+                <div
+                  class="div-root-41"
+                >
+                  <div
+                    class="div-root-42"
+                  >
+                     🍣  
+                  </div>
+                  <div
+                    class="div-root-43 makeStyles-title-37"
+                  >
+                     基本信息 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="div-root-44"
+    >
+      <div
+        class="div-root-29 makeStyles-divider-17"
+      />
+      <div
+        class="div-root-47 makeStyles-root-45"
+      >
+        <div
+          class="div-root-48 makeStyles-icon-46"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 16px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 16px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+            />
+          </svg>
+        </div>
+        <span
+          class="span-root-49"
+        >
+          选择
+        </span>
+        <span
+          class="span-root-50 makeStyles-icon-46"
+        >
+          Enter
+        </span>
+        <span
+          class="span-root-49"
+        >
+          打开
+        </span>
+        <span
+          class="span-root-50 makeStyles-icon-46"
+        >
+           ⌘+Enter
+        </span>
+        <span
+          class="span-root-49"
+        >
+          新标签中打开
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`QuickFind 渲染  参数 recentPagesData = null  | recentSearchesData = data 1`] = `
+<div
+  class="div-root-53"
+>
+  <div
+    class="div-root-54 makeStyles-root-51"
+  >
+    <div
+      class="div-root-55"
+    >
+      <div
+        class="div-root-59 div-root-60"
+      >
+        <div
+          class="div-root-61 makeStyles-icon-57"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 24px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <input
+          class="input-root-62 makeStyles-input-56"
+          placeholder="Search 工作区.."
+          value=""
+        />
+        <div
+          class="div-root-63 makeStyles-cancelIcon-58"
+        />
+      </div>
+    </div>
+    <div
+      class="div-root-64 makeStyles-divider-52"
+    />
+    <div
+      class="div-root-65"
+    >
+      <div>
+        <div
+          class="div-root-66"
+        >
+          <div
+            class="div-root-69"
+          >
+            <div
+              class="div-root-70 makeStyles-title-67"
+            >
+              最近搜索
+            </div>
+          </div>
+          <div
+            class="div-root-74"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-75 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-76"
+              >
+                <div
+                  class="div-root-77"
+                >
+                  <div
+                    class="div-root-78 makeStyles-icon-72"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      style="font-size: 19px;"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="div-root-79 makeStyles-title-73"
+                  >
+                     芜湖abc 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+          <div
+            class="div-root-74"
+          >
+            <li
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root WithStyles(ForwardRef(MenuItem))-root-75 MuiListItem-button"
+              role="menuitem"
+              tabindex="-1"
+            >
+              <div
+                class="div-root-76"
+              >
+                <div
+                  class="div-root-77"
+                >
+                  <div
+                    class="div-root-78 makeStyles-icon-72"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      style="font-size: 19px;"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="div-root-79 makeStyles-title-73"
+                  >
+                     你好啊 
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="font-size: 16px;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="div-root-80"
+    >
+      <div
+        class="div-root-64 makeStyles-divider-52"
+      />
+      <div
+        class="div-root-83 makeStyles-root-81"
+      >
+        <div
+          class="div-root-84 makeStyles-icon-82"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 16px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 16px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+            />
+          </svg>
+        </div>
+        <span
+          class="span-root-85"
+        >
+          选择
+        </span>
+        <span
+          class="span-root-86 makeStyles-icon-82"
+        >
+          Enter
+        </span>
+        <span
+          class="span-root-85"
+        >
+          打开
+        </span>
+        <span
+          class="span-root-86 makeStyles-icon-82"
+        >
+           ⌘+Enter
+        </span>
+        <span
+          class="span-root-85"
+        >
+          新标签中打开
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`QuickFind 渲染  参数 recentPagesData = null  | recentSearchesData = null 1`] = `
+<div
+  class="div-root-3"
+>
+  <div
+    class="div-root-4 makeStyles-root-1"
+  >
+    <div
+      class="div-root-5"
+    >
+      <div
+        class="div-root-9 div-root-10"
+      >
+        <div
+          class="div-root-11 makeStyles-icon-7"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            style="font-size: 24px;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <input
+          class="input-root-12 makeStyles-input-6"
+          placeholder="Search 工作区.."
+          value=""
+        />
+        <div
+          class="div-root-13 makeStyles-cancelIcon-8"
+        />
+      </div>
+    </div>
+    <div
+      class="div-root-14"
+    />
+    <div
+      class="div-root-15"
+    />
+  </div>
+</div>
+`;
