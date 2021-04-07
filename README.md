@@ -48,3 +48,5 @@
 
 - 程序员练级攻略
   - [程序员练级攻略.md](https://github.com/guokaigdg/Book/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md)
+- 代码重构
+  - [代码重构](https://github.com/guokaigdg/notebook/blob/master/%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84.md)
