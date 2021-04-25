@@ -80,16 +80,23 @@ import React from 'react';const Child = (props) => <div>{props.name}</div>;expor
 
 **基本用法**
 
-```
-import { memo } from 'react';function Button(props) {  // Component code}export default memo(Button);
+```jsx
+import { memo } from 'react';
+function Button(props) {  
+    // Component code
+}
+export default memo(Button);
 ```
 
 **高级用法**
 
 默认情况下其只会对 props 做浅层对比，遇到层级比较深的复杂对象时，表示力不从心了。对于特定的业务场景，可能需要类似 `shouldComponentUpdate` 这样的 API，这时通过 `memo` 的第二个参数来实现：
 
-```
-function arePropsEqual(prevProps, nextProps) {  // your code  return prevProps === nextProps;}export default memo(Button, arePropsEqual);
+```js
+function arePropsEqual(prevProps, nextProps) {  // your code  
+    return prevProps === nextProps;
+  }
+export default memo(Button, arePropsEqual);
 ```
 
 > “
