@@ -11,9 +11,9 @@ function countDown() {
   if (timeRemainning < 0) {
     return 0;
   }
-  second = Math.floor(timeRemainning / 1000 % 60);
-  minute = Math.floor(timeRemainning / 1000 / 60 % 60);
-  hour = Math.floor(timeRemainning / 1000 / 60 / 60 % 24);
+  second = Math.floor((timeRemainning / 1000) % 60);
+  minute = Math.floor((timeRemainning / 1000 / 60) % 60);
+  hour = Math.floor((timeRemainning / 1000 / 60 / 60) % 24);
   day = Math.floor(timeRemainning / 1000 / 60 / 60 / 24);
 
   daySpan.innerHTML = day + "天";
