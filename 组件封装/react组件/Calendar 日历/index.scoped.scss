@@ -1,0 +1,117 @@
+.meeting-calendar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    font-size: 32px;
+
+    .calendar-operate {
+        @include flex-grid(row, space-between, center);
+        box-sizing: border-box;
+        height: 100px;
+        padding: 0 45px;
+
+        .mid{
+            width: 400px;
+            @include flex-grid(row, center, center);
+
+            .month-title{
+                width: 250px;
+                height: 40px;
+                margin: 0 10px;
+                color: #0A0D12;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 40px;
+                letter-spacing: 0;
+            }
+
+            .left-icon {
+                width: 100px;
+                height: 80px;
+                @include flex-grid(row, flex-end, center);
+            }
+
+            .right-icon {
+                width: 100px;
+                height: 80px;
+                @include flex-grid(row, flex-start, center);
+            }
+        }
+
+        .confirm-button{
+            color: #3C6FFE;
+            font-size: 32px;
+        }
+    }
+  
+    .calendar-head {
+        @include flex-grid(row, flex-start, center);
+        flex-flow: row nowrap;
+        height: 70px;
+        margin-top: 10px;
+        color: #333;
+        font-size: 36px;
+
+        .head-cell {
+            display: flex;
+            flex-basis: 14.28571%;
+            align-items: center;
+            justify-content: center;
+            height: 34px;
+        }
+    }
+  
+    .calendar-body {
+        position: relative;
+        height: 620px;
+        transition: height 0.3s;
+
+        .month-cell {
+            position: absolute;
+            flex-flow: row wrap;
+            width: 100%;
+            will-change: transform;
+            @include flex-grid(row, center, center);
+
+            .day-cell-wrap {
+                @include flex-grid(column, center, center);
+                flex-basis: 14.28571%;
+                margin-bottom: 5px;
+                color: #333;
+                font-size: 36px;
+
+                .day-cell-item{
+                    width: 80px;
+
+                    &.other-month-day {
+                        @include flex-grid(row, center, center);
+                        color: #999;
+                        background: #F7F7F7;
+                        border-radius: 10px;
+                    }
+                    
+                    .day-text {
+                        @include flex-grid(row, center, center);
+                        width: 80px;
+                        height: 80px;
+                    }
+    
+                    .current-day {
+                        color: #fff;
+                        font-size: 36px;
+                        background: #4C84FF;
+                        border-radius: 10px;
+                    }
+    
+                    .circle-mark {
+                        border: 1px solid #196edd;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+  
