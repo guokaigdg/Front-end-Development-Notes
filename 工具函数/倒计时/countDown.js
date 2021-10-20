@@ -2,7 +2,7 @@ const daySpan = document.querySelector(".daySpan"),
   hourSpan = document.querySelector(".hourSpan"),
   minuteSpan = document.querySelector(".minuteSpan"),
   srcondSpan = document.querySelector(".secondSpan");
-deadLine = new Date("2023-8-9 00:00"); //未来要开始的时间
+deadLine = new Date("2022-8-9 00:00"); //未来要开始的时间
 
 function countDown() {
   const now = new Date();
