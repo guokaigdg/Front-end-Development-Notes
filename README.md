@@ -1,10 +1,10 @@
 # 前端笔记本 notebook
 
-#### 这是一个杂七杂八的文档
+## 目录
+> 通过在线vscode编写 [开始编写](https://vscode.dev/github/guokaigdg/Front-end-Development-Notes)
 
 - Vscode 插件
 - 日记本
-- React
 - ⌨️ 客制化
 
   - [开车群号](https://github.com/guokaigdg/Book/blob/master/%E2%8C%A8%EF%B8%8F%E5%AE%A2%E5%88%B6%E5%8C%96/%E5%BC%80%E8%BD%A6%E7%BE%A4%E5%8F%B7.md)
