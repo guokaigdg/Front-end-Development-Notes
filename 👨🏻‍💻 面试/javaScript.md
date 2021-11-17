@@ -1,4 +1,37 @@
-# JS 继承
+<!--
+ * @Author: guokai05
+ * @Date: 2021-08-09 17:12:36
+ * @LastEditors: guokai05
+ * @LastEditTime: 2021-11-17 10:30:29
+-->
+
+
+## 普通函数跟箭头函数区别
+
+|          | 语法格式                       | new 和原型 | argument super new.target | this 指向                                  | call.apply 和 bind |
+| -------- | ------------------------------ | ---------- | ------------------------- | ------------------------------------------ | ------------------ |
+| 普通函数 | function(){}函数声明函数表达式 | 有         | 有                        | 动态                                       | 修改 this 值       |
+| 箭头函数 | ()=>{}函数表达式               | 没有       | 没有,可以调用外围         | 一般是全局对象或者被普通函数包含指向上一层 | 不可修改 this 值   |
+
+## add(1)(2)(3)(4)求和  `柯里化`
+```
+function add(sum) {
+    function s (b) {
+        sum = sum+b;
+        return s ;
+    };
+    s.toString = function() {
+        return sum;
+    }
+    return s;
+}
+
+var a = +add(1)(2)(3)(4)(5);//10
+console.log(a); //number
+```
+
+
+## JS 继承
 
 - 原型链继承
 - 构造继承
