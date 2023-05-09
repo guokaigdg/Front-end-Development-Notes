@@ -62,6 +62,7 @@
 - [全球电台](https://radio.garden/visit/chengdu/eRUAHuFI)
 - [敲代码背景音乐](https://coderadio.freecodecamp.org/)
 - [硬件维修指南](https://zh.ifixit.com/Guide)
+- [哔哩哔哩-API收集整理](https://github.com/SocialSisterYi/bilibili-API-collect)
 
 ## 🧙 程序员练级攻略
   - [程序员练级攻略](https://github.com/guokaigdg/Book/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md)
