@@ -1,4 +1,4 @@
-# 写组件必须用到的 React 类型
+# React 组件用到的 ts 类型
 
 ## 创建 ts 项目 createreactapp myapp typescript
 
@@ -8,63 +8,83 @@ https://www.jianshu.com/p/5ba6d409131e
 
 ```js
 static defaultProps = {
-duration: 2000
+    duration: 2000
 }
 ```
 
 ## TypeScript 类型
 
-### #. { useState } 定义
+### React 事件类型
+
+| 情况             | 类别                |
+| ---------------- | ------------------- |
+| 点击事件         | React.MouseEvent    |
+| 键盘事件         | React.keyboardEvent |
+| 拖拽事件         | React.DragEvent     |
+| 焦点事件         | React.FocusEvent    |
+| 表单域值变更事件 | React.ChangeEvent   |
+| 表单提交事件     | React.FormEvent     |
+| 鼠标滚动事件     | React.WheelEvent    |
+| 触摸事件         | React.TouchEvent    |
+
+###  useState 定义
 
 ```
-const [state, setState] = useState < HTMLDivElement > ( null );
-const [state, setState] = useState < HTMLInputElement >( null );
+const [state, setState] = useState<HTMLDivElement>(null);
+const [state, setState] = useState<HTMLInputElement>(null);
 ```
 
-### 1. string / number / boolean | object;
+### 1. string / number / boolean ;
 
 ```js
 name?:string;
 num?: number;
 isOpen?:boolean
-
 ```
 
-### 2. (...args: any) => any;
+### 2. 点击事件
 
 ```js
+onClick:(event:React.MouseEvent<HTMLButtonElement>)=>void;
+
+onClick?: (event: React.SyntheticEvent) => void;
+
 onClick: (...args: any) => any;
+
+// React.MouseEventHandler<HTMLAnchorElement>
+onClick: React.MouseEventHandler<HTMLAnchorElement>;
+
+// React.MouseEventHandler<SVGElement>
+onClick: React.MouseEventHandler<SVGElement>;
+
+// React.MouseEventHandler<HTMLElement>
+onClick?: React.MouseEventHandler<HTMLElement>;
+
+// React.MouseEventHandler<JSX.Element | HTMLElement>
+onClick?: React.MouseEventHandler<JSX.Element | HTMLElement>;
 ```
 
-### 3.onChange
+### 3.表单事件
 
 ```js
 onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-
 ```
 
-### 4.React.ReactNode;
+### 4.元素类型
 
 ```js
  children?: React.ReactNode;
 ```
+| 情况          | 类别               |
+| ------------- | ------------------ |
+| 字符串、数字  | React.ReactText    |
+| 单个 jsx 元素 | React.ReactElement |
+| 多个 jsx 元素 | React.ReactNode    |
+| portal        | React.ReactPortal  |
 
-### 5. 事件 (event: React.SyntheticEvent) => void;
 
-```js
- onClick?: (event: React.SyntheticEvent) => void;
-```
 
-### 6. React.MouseEventHandler<SVGElement> / React.MouseEventHandler<SVGElement> / React.MouseEventHandler<JSX.Element | HTMLElement>
-
-```js
-
- onClick: React.MouseEventHandler<SVGElement>
- onClick?: React.MouseEventHandler<HTMLElement>;
- onClick?: React.MouseEventHandler<JSX.Element | HTMLElement>;
-```
-
-5. React.CSSProperties;
+### 5. React.CSSProperties;
 
 ```js
  style?: React.CSSProperties;
@@ -86,20 +106,17 @@ onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 ```
 
+### 🌰 例子
+
 ```js
+renderCustomControls?: () => React.ReactNode;
+renderItem?: (item: ReactImageGalleryItem) => React.ReactNode;
 items: ReactImageGalleryItem[];
-onSlide?: (currentIndex: number) => void;##
 onScreenChange?: (fullScreenElement: Element) => void;
 onPause?: (currentIndex: number) => void;
-onPlay?: (currentIndex: number) => void;
 onClick?: (event: React.MouseEventHandler<HTMLDivElement>) => void;
 onThumbnailError?: (event: React.ReactEventHandler<HTMLImageElement>) => void;
 onThumbnailClick?: (event: React.MouseEventHandler<HTMLAnchorElement>, index: number) => void;
-renderCustomControls?: () => React.ReactNode;
 renderLeftNav?: (onClick: React.MouseEventHandler<HTMLElement>, isDisabled: boolean) => React.ReactNode;
-renderRightNav?: (onClick: React.MouseEventHandler<HTMLElement>, isDisabled: boolean) => React.ReactNode;
-renderPlayPauseButton?: (onClick: React.MouseEventHandler<HTMLElement>, isPlaying: boolean) => React.ReactNode;
-renderFullscreenButton?: (onClick: React.MouseEventHandler<HTMLElement>, isFullscreen: boolean) => React.ReactNode;
-renderItem?: (item: ReactImageGalleryItem) => React.ReactNode;
-renderThumbInner?: (item: ReactImageGalleryItem) => React.ReactNode;
 ```
+
