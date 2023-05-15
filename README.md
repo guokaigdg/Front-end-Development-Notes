@@ -12,7 +12,7 @@
 - [Frontend Guidelines 前端指南](https://github.com/guokaigdg/Book/blob/master/Frontend%20Guidelines%20%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/FrontendGuidelines.md)
 - [css 属性最好按这样的顺序写](https://github.com/guokaigdg/Book/blob/master/Frontend%20Guidelines%20%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/CSS%E5%B1%9E%E6%80%A7%E9%A1%BA%E5%BA%8F.md)
 
-## React
+## 🧙‍♀️ 前端框架
 
 ### 1. React 模板
 - [React 模板](https://github.com/guokaigdg/react-enterprise-template)
@@ -37,18 +37,30 @@
 - [写好JavaScript条件语句的5条守则 ](https://juejin.cn/post/6844903704219353102)
 -  <a href="./TS类型.md">React 组件用到的 ts 类型</a>
 
-##  💻 网络
+
+## 📦 前端工程化
+> 模块化 AST 部署
+- <a href="./前端工程化/github-pages.md">github-pages 部署</a>
+## 🚀 性能优化
+
+
+
+##  💻 网络知识
 ### 1. HTTP
 
 - [图解 http](https://github.com/guokaigdg/Book/blob/master/HTTP/%E5%9B%BE%E8%A7%A3http.md)
 - [基于 HTTP Range 实现文件分片并发下载！](https://mp.weixin.qq.com/s/kZvD2OvsY-aFfb34grjqug)
 
-## 算法
+## 🧿 编程思维和算法
+
+> 设计模式 数据结构 
 
 1. [动画图解：九大经典排序算法](https://v2ex.com/t/938103)
 
 
-## 测试
+
+
+## 🚧 测试
 - [前端测试-jest](https://github.com/guokaigdg/Front-end-Development-Notes/blob/master/%E6%B5%8B%E8%AF%95/jest.md)
 
 ## 👨🏻‍💻 前端面试
@@ -64,21 +76,17 @@
 - [哔哩哔哩-API收集整理](https://github.com/SocialSisterYi/bilibili-API-collect)
 - [怎么实现微信扫码登录](https://juejin.cn/post/7225867003720974373)
 
-## 🧙 程序员练级攻略
+## 👨‍💻 程序员练级攻略
   - [程序员练级攻略](https://github.com/guokaigdg/Book/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5.md)
 ## 🎉 代码重构
   - [代码重构](https://github.com/guokaigdg/notebook/blob/master/%E4%BB%A3%E7%A0%81%E9%87%8D%E6%9E%84.md)
 
 
-
-## ⌨️ 客制化键盘
-
-  - [开团群号](https://github.com/guokaigdg/Book/blob/master/%E2%8C%A8%EF%B8%8F%E5%AE%A2%E5%88%B6%E5%8C%96/%E5%BC%80%E8%BD%A6%E7%BE%A4%E5%8F%B7.md)
-
-
-## 编程工具
+## ⚙️ 编程工具
 - [WebContainers run on Safari, iOS, and iPadOS](https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/)
 - [在线vscode编程](https://vscode.dev/github/guokaigdg/Front-end-Development-Notes)
+- ⌨️ [客制化键盘](https://github.com/guokaigdg/Book/blob/master/%E2%8C%A8%EF%B8%8F%E5%AE%A2%E5%88%B6%E5%8C%96/%E5%BC%80%E8%BD%A6%E7%BE%A4%E5%8F%B7.md)
+
 
 
 
