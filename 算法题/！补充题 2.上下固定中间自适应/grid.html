@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+    <style>
+      html * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .top,
+      .bottom {
+        height: 100px;
+      }
+
+      .top {
+        background-color: red;
+      }
+
+      .center {
+        background-color: yellow;
+      }
+
+      .bottom {
+        background-color: blue;
+      }
+
+      .container {
+        display: grid;
+        grid-template-rows: 100px auto 100px;
+        grid-template-columns: 100%;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">我是top</div>
+      <div class="center">
+        <h2>我是center,通过absolute实现</h2>
+        posotion:absolute
+      </div>
+      <div class="bottom">我是bottom</div>
+    </div>
+  </body>
+</html>

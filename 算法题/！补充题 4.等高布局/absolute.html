@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flex</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .box {
+        background-color: silver;
+      }
+      .left {
+        background-color: red;
+      }
+      .right {
+        background-color: slateblue;
+      }
+
+      .box {
+        overflow: hidden;
+        position: relative;
+        /* 必须设置height */
+        height: 200px;
+      }
+      .left,
+      .right {
+        position: absolute;
+        width: 200px;
+        top: 0;
+        bottom: 0;
+      }
+      .right {
+        left: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="left">
+        <p>我是left</p>
+        123
+      </div>
+      <div class="right">
+        我是right
+      </div>
+    </div>
+    <div class="next">
+      11111
+    </div>
+  </body>
+</html>

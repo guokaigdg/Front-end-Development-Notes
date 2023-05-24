@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      html * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .top,
+      .bottom {
+        height: 100px;
+      }
+
+      .top {
+        background-color: red;
+      }
+
+      .center {
+        background-color: yellow;
+      }
+
+      .bottom {
+        background-color: blue;
+      }
+
+      .container {
+        display: table;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .top,
+      .center,
+      .bottom {
+        display: table-row;
+      }
+
+      .top,
+      .bottom {
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">我是top</div>
+      <div class="center">
+        <h2>我是center,通过absolute实现</h2>
+        posotion:absolute
+      </div>
+      <div class="bottom">我是bottom</div>
+    </div>
+  </body>
+</html>
