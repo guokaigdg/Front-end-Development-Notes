@@ -33,6 +33,7 @@
 ### 4. react 相关
 
 - [React中渲染交互式指南](https://ui.dev/why-react-renders)
+- [react keep-alive](https://github.com/CJY0208/react-activation/blob/master/README_CN.md)
 ### 5. JavaScript / TypeScript
 
 - [可能是你需要的 React + TypeScript 50 条规范和经验](https://github.com/guokaigdg/Book/blob/master/React%2BTypeScript/%E5%8F%AF%E8%83%BD%E6%98%AF%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9A%84%20React%20%2B%20TypeScript%2050%20%E6%9D%A1%E8%A7%84%E8%8C%83%E5%92%8C%E7%BB%8F%E9%AA%8C%20-%20%E6%8E%98%E9%87%91.md)
