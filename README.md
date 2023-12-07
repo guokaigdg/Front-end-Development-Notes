@@ -103,6 +103,7 @@
   - [前端面试常考题 2](https://github.com/guokaigdg/Book/blob/master/%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%E9%9D%A2%E8%AF%95/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%80%83%E9%A2%982.md)
   - [防抖节流深拷贝](https://github.com/guokaigdg/Book/blob/master/%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%E9%9D%A2%E8%AF%95/%E9%98%B2%E6%8A%96%E8%8A%82%E6%B5%81%E6%B7%B1%E6%8B%B7%E8%B4%9D.md)
   - [前端面试常考题 2]()
+  - [Event/Message Loop 事件/消息循环](https://guookai.notion.site/Event-Message-Loop-5c04123f2201432ea03cf60dc2eb2099?pvs=4)
 
 
 <br>
